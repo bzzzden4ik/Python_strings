@@ -1,4 +1,4 @@
-text = input()
+text = input("Введите текст")
 
 words = []
 temp = ''
@@ -13,10 +13,12 @@ for i in range(len(text)):
 if temp:
     words.append(temp)
 
+print("Вывод слов в обратном порядке")
+
 for i in range(len(words) - 1, -1, -1):
     print(words[i], end=' ')
 
-print()
+print("Вывод символов строки в обратном порядке:")
 
 for i in range(len(text) - 1, -1, -1):
     print(text[i], end='')
