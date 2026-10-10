@@ -13,7 +13,7 @@ for i in range(len(text)):
 if temp:
     words.append(temp)
 
-print("Вывод слов в обратном порядке")
+print("Вывод слов из строки в обратном порядке")
 
 for i in range(len(words) - 1, -1, -1):
     print(words[i], end=' ')
