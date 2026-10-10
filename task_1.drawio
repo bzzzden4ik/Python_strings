@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="BMlR4rs8mD5h78BTNQYO">
-    <mxGraphModel dx="1621" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="700" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,24 +86,26 @@
         <mxCell id="klkQ0W5P2J6p01Lep40_-21" edge="1" parent="1" source="klkQ0W5P2J6p01Lep40_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" target="klkQ0W5P2J6p01Lep40_-19">
           <mxGeometry relative="1" x="0.0043" as="geometry" />
         </mxCell>
-        <mxCell id="klkQ0W5P2J6p01Lep40_-25" edge="1" parent="1" source="klkQ0W5P2J6p01Lep40_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="klkQ0W5P2J6p01Lep40_-23">
-          <mxGeometry relative="1" x="-0.0965" as="geometry">
+        <mxCell id="klkQ0W5P2J6p01Lep40_-42" edge="1" parent="1" source="klkQ0W5P2J6p01Lep40_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" x="-0.0511" as="geometry">
             <Array as="points">
-              <mxPoint x="660" y="1140" />
-              <mxPoint x="660" y="1410" />
+              <mxPoint x="670" y="1140" />
+              <mxPoint x="670" y="1410" />
               <mxPoint x="425" y="1410" />
             </Array>
+            <mxPoint x="424.9999999999998" y="1440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="klkQ0W5P2J6p01Lep40_-17" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="temp осталась" vertex="1">
           <mxGeometry height="140" width="210" x="320" y="1070" as="geometry" />
         </mxCell>
-        <mxCell id="klkQ0W5P2J6p01Lep40_-24" edge="1" parent="1" source="klkQ0W5P2J6p01Lep40_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" target="klkQ0W5P2J6p01Lep40_-23">
+        <mxCell id="klkQ0W5P2J6p01Lep40_-41" edge="1" parent="1" source="klkQ0W5P2J6p01Lep40_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="klkQ0W5P2J6p01Lep40_-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="185" y="1410" />
               <mxPoint x="425" y="1410" />
             </Array>
+            <mxPoint x="424.9999999999998" y="1440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="klkQ0W5P2J6p01Lep40_-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Добавляем temp в список words" vertex="1">
@@ -115,14 +117,14 @@
         <mxCell id="klkQ0W5P2J6p01Lep40_-32" edge="1" parent="1" source="klkQ0W5P2J6p01Lep40_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" target="klkQ0W5P2J6p01Lep40_-31">
           <mxGeometry relative="1" x="-0.0222" as="geometry">
             <Array as="points">
-              <mxPoint x="560" y="1510" />
-              <mxPoint x="560" y="1810" />
-              <mxPoint x="425" y="1810" />
+              <mxPoint x="560" y="1680" />
+              <mxPoint x="560" y="1980" />
+              <mxPoint x="425" y="1980" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="klkQ0W5P2J6p01Lep40_-23" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;strokeWidth=2;labelPosition=center;align=center;whiteSpace=wrap;" value="i = длина words - 1; i &amp;gt; -1; i -= 1" vertex="1">
-          <mxGeometry height="140" width="210" x="320" y="1440" as="geometry" />
+          <mxGeometry height="140" width="210" x="320" y="1610" as="geometry" />
         </mxCell>
         <mxCell id="klkQ0W5P2J6p01Lep40_-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;true&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="260" y="1110" as="geometry" />
@@ -133,20 +135,20 @@
         <mxCell id="klkQ0W5P2J6p01Lep40_-30" edge="1" parent="1" source="klkQ0W5P2J6p01Lep40_-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="klkQ0W5P2J6p01Lep40_-23">
           <mxGeometry relative="1" x="0.0022" as="geometry">
             <Array as="points">
-              <mxPoint x="425" y="1780" />
-              <mxPoint x="290" y="1780" />
-              <mxPoint x="290" y="1510" />
+              <mxPoint x="425" y="1950" />
+              <mxPoint x="290" y="1950" />
+              <mxPoint x="290" y="1680" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="klkQ0W5P2J6p01Lep40_-28" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="&lt;div&gt;Вывод&lt;/div&gt;&lt;div&gt;words[i]&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="210" x="320" y="1610" as="geometry" />
+          <mxGeometry height="140" width="210" x="320" y="1780" as="geometry" />
         </mxCell>
         <mxCell id="klkQ0W5P2J6p01Lep40_-37" edge="1" parent="1" source="klkQ0W5P2J6p01Lep40_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" target="klkQ0W5P2J6p01Lep40_-34">
           <mxGeometry relative="1" x="0.4" as="geometry" />
         </mxCell>
-        <mxCell id="klkQ0W5P2J6p01Lep40_-31" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="&lt;div&gt;Вывод пустой строки&lt;/div&gt;&lt;div&gt;Перенос строки&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="210" x="320" y="1840" as="geometry" />
+        <mxCell id="klkQ0W5P2J6p01Lep40_-31" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="&lt;div&gt;Вывод&lt;/div&gt;&lt;div&gt;&quot;Вывод символов строки в обратном порядке&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="210" x="320" y="2010" as="geometry" />
         </mxCell>
         <mxCell id="klkQ0W5P2J6p01Lep40_-33" edge="1" parent="1" source="klkQ0W5P2J6p01Lep40_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" target="klkQ0W5P2J6p01Lep40_-36">
           <mxGeometry relative="1" x="0.4" as="geometry" />
@@ -154,29 +156,37 @@
         <mxCell id="klkQ0W5P2J6p01Lep40_-39" edge="1" parent="1" source="klkQ0W5P2J6p01Lep40_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;" target="klkQ0W5P2J6p01Lep40_-38">
           <mxGeometry relative="1" x="-0.1394" as="geometry">
             <Array as="points">
-              <mxPoint x="560" y="2080" />
-              <mxPoint x="560" y="2380" />
-              <mxPoint x="425" y="2380" />
+              <mxPoint x="560" y="2250" />
+              <mxPoint x="560" y="2550" />
+              <mxPoint x="425" y="2550" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="klkQ0W5P2J6p01Lep40_-34" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;strokeWidth=2;labelPosition=center;align=center;whiteSpace=wrap;" value="i = длина text - 1; i &amp;gt; -1; i -= 1" vertex="1">
-          <mxGeometry height="140" width="210" x="320" y="2010" as="geometry" />
+          <mxGeometry height="140" width="210" x="320" y="2180" as="geometry" />
         </mxCell>
         <mxCell id="klkQ0W5P2J6p01Lep40_-35" edge="1" parent="1" source="klkQ0W5P2J6p01Lep40_-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="klkQ0W5P2J6p01Lep40_-34">
           <mxGeometry relative="1" x="0.0022" as="geometry">
             <Array as="points">
-              <mxPoint x="425" y="2350" />
-              <mxPoint x="290" y="2350" />
-              <mxPoint x="290" y="2080" />
+              <mxPoint x="425" y="2520" />
+              <mxPoint x="290" y="2520" />
+              <mxPoint x="290" y="2250" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="klkQ0W5P2J6p01Lep40_-36" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="&lt;div&gt;Вывод&lt;/div&gt;&lt;div&gt;text[i]&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="210" x="320" y="2180" as="geometry" />
+          <mxGeometry height="140" width="210" x="320" y="2350" as="geometry" />
         </mxCell>
         <mxCell id="klkQ0W5P2J6p01Lep40_-38" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Конец" vertex="1">
-          <mxGeometry height="70" width="210" x="320" y="2410" as="geometry" />
+          <mxGeometry height="70" width="210" x="320" y="2580" as="geometry" />
+        </mxCell>
+        <mxCell id="klkQ0W5P2J6p01Lep40_-43" edge="1" parent="1" source="klkQ0W5P2J6p01Lep40_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="klkQ0W5P2J6p01Lep40_-23">
+          <mxGeometry relative="1" x="0.44" as="geometry">
+            <mxPoint x="424.9999999999998" y="1580" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="klkQ0W5P2J6p01Lep40_-44" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="&lt;div&gt;Вывод&lt;/div&gt;&lt;div&gt;&quot;Вывод слов из строки в обратном порядке&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="210" x="320" y="1440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
