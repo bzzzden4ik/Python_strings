@@ -27,14 +27,12 @@ items = list(word_counts.items())
 
 sorted_words = sorted(items, key=lambda x: x[1], reverse=True)
 
-count_to_show = 5
-
-if len(sorted_words) < 5:
-    count_to_show = len(sorted_words)
+count_to_show = min(len(sorted_words), 5)
 
 print('Топ-5 самых частых слов:')
 
 for i in range(count_to_show):
     word = sorted_words[i][0]
     count = sorted_words[i][1]
+    
     print(f'{word} - {count} повторений')
