@@ -10,8 +10,7 @@ for char in text:
     if char in lower_alp or char in upper_alp:
         current_len += 1
     else:
-        if current_len > max_len:
-            max_len = current_len
+        max_len = max(max_len, current_len)
         current_len = 0
 
 K = max_len
