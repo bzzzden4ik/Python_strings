@@ -1,5 +1,11 @@
-lower_alp = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z')
-upper_alp = ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z')
+lower_alp = (
+    'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+    'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
+)
+upper_alp = (
+    'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+    'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
+)
 
 text = input('Введите текст: ')
 
@@ -17,7 +23,7 @@ for char in text:
 K = max_len
 result_list = []
 
-# Замена букв на новые со смещение K
+# Замена букв на новые со смещением K
 for char in text:
     if char in lower_alp:
         idx = 0
@@ -40,7 +46,7 @@ for char in text:
     else:
         result_list.append(char)
 
-encrypted_text = ""
+encrypted_text = ''
 
 for char in result_list:
     encrypted_text += char
