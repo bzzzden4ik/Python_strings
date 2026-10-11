@@ -1,4 +1,4 @@
-alphabet = 'abcdefghijklmnopqrstuvwxyzабвгдеёжзийклмнопрстуфхцчшщъыьэюя'
+alp = 'abcdefghijklmnopqrstuvwxyzабвгдеёжзийклмнопрстуфхцчшщъыьэюя'
 
 text = input('Введите текст: ').lower()
 
@@ -6,7 +6,7 @@ words_list = []
 current_word = ''
 
 for char in text:
-    if char in alphabet:
+    if char in alp:
         current_word += char
     elif current_word != '':
         words_list.append(current_word)
