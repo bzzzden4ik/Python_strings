@@ -1,4 +1,4 @@
-text = input("Введите текст")
+text = input("Введите текст: ")
 
 words = []
 temp = ''
