@@ -1,18 +1,18 @@
-alphabet = "abcdefghijklmnopqrstuvwxyzабвгдеёжзийклмнопрстуфхцчшщъыьэюя"
+alphabet = 'abcdefghijklmnopqrstuvwxyzабвгдеёжзийклмнопрстуфхцчшщъыьэюя'
 
-text = input("Введите текст: ").lower()
+text = input('Введите текст: ').lower()
 
 words_list = []
-current_word = ""
+current_word = ''
 
 for char in text:
     if char in alphabet:
         current_word += char
-    elif current_word != "":
-            words_list.append(current_word)
-            current_word = ""
+    elif current_word != '':
+        words_list.append(current_word)
+        current_word = ''
 
-if current_word != "":
+if current_word != '':
     words_list.append(current_word)
 
 word_counts = {}
@@ -32,9 +32,9 @@ count_to_show = 5
 if len(sorted_words) < 5:
     count_to_show = len(sorted_words)
 
-print("Топ-5 самых частых слов:")
+print('Топ-5 самых частых слов:')
 
 for i in range(count_to_show):
     word = sorted_words[i][0]
     count = sorted_words[i][1]
-    print(f"{word} - {count} повторений")
+    print(f'{word} - {count} повторений')
