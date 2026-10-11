@@ -6,6 +6,7 @@ text = input('Введите текст: ')
 max_len = 0
 current_len = 0
 
+# Поиск максимальной длины слова
 for char in text:
     if char in lower_alp or char in upper_alp:
         current_len += 1
@@ -16,6 +17,7 @@ for char in text:
 K = max_len
 result_list = []
 
+# Замена букв на новые со смещение K
 for char in text:
     if char in lower_alp:
         idx = 0
